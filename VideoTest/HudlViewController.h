@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HudlVideoPlayerDelegate.h"
 
 
 
-@interface HudlViewController : UIViewController
+@interface HudlViewController : UIViewController<HudlVideoPlayerDelegate>
 
 @end

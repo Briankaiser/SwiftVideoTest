@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		519EB2DD17398D7D00F966E6 /* HudlLeroyVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 519EB2DC17398D7D00F966E6 /* HudlLeroyVideoViewController.m */; };
 		51ECCA751731552000195407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ECCA741731552000195407 /* UIKit.framework */; };
 		51ECCA771731552000195407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ECCA761731552000195407 /* Foundation.framework */; };
 		51ECCA791731552000195407 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ECCA781731552000195407 /* CoreGraphics.framework */; };
@@ -24,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		519EB2DB17398D7D00F966E6 /* HudlLeroyVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudlLeroyVideoViewController.h; sourceTree = "<group>"; };
+		519EB2DC17398D7D00F966E6 /* HudlLeroyVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudlLeroyVideoViewController.m; sourceTree = "<group>"; };
+		519EB2DE17398F7800F966E6 /* HudlVideoPlayerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HudlVideoPlayerDelegate.h; sourceTree = "<group>"; };
 		51ECCA711731552000195407 /* VideoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51ECCA741731552000195407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		51ECCA761731552000195407 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,9 +69,6 @@
 		51ECCA681731552000195407 = {
 			isa = PBXGroup;
 			children = (
-				51ECCA9B1731D5DD00195407 /* CoreMedia.framework */,
-				51ECCA991731B63500195407 /* AVFoundation.framework */,
-				51ECCA971731557700195407 /* MediaPlayer.framework */,
 				51ECCA7A1731552000195407 /* VideoTest */,
 				51ECCA731731552000195407 /* Frameworks */,
 				51ECCA721731552000195407 /* Products */,
@@ -85,6 +86,9 @@
 		51ECCA731731552000195407 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51ECCA9B1731D5DD00195407 /* CoreMedia.framework */,
+				51ECCA991731B63500195407 /* AVFoundation.framework */,
+				51ECCA971731557700195407 /* MediaPlayer.framework */,
 				51ECCA741731552000195407 /* UIKit.framework */,
 				51ECCA761731552000195407 /* Foundation.framework */,
 				51ECCA781731552000195407 /* CoreGraphics.framework */,
@@ -100,7 +104,10 @@
 				51ECCA8C1731552000195407 /* HudlViewController.h */,
 				51ECCA8D1731552000195407 /* HudlViewController.m */,
 				51ECCA8F1731552000195407 /* HudlViewController.xib */,
+				519EB2DB17398D7D00F966E6 /* HudlLeroyVideoViewController.h */,
+				519EB2DC17398D7D00F966E6 /* HudlLeroyVideoViewController.m */,
 				51ECCA7B1731552000195407 /* Supporting Files */,
+				519EB2DE17398F7800F966E6 /* HudlVideoPlayerDelegate.h */,
 			);
 			path = VideoTest;
 			sourceTree = "<group>";
@@ -189,6 +196,7 @@
 				51ECCA811731552000195407 /* main.m in Sources */,
 				51ECCA851731552000195407 /* HudlAppDelegate.m in Sources */,
 				51ECCA8E1731552000195407 /* HudlViewController.m in Sources */,
+				519EB2DD17398D7D00F966E6 /* HudlLeroyVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +321,7 @@
 				51ECCA961731552000195407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
